@@ -1,9 +1,9 @@
-# dermocare — GitHub Project (classic) dashboard blueprint
+# dermoare — GitHub Project dashboard blueprint
 
 ## Limitation encountered
 
-In this environment, available GitHub tooling is read-focused and does not expose a write operation to create **Projects (classic)** boards/cards directly.  
-Because of that, this file provides the closest supported setup: a complete board blueprint you can copy into a classic project named `dermocare`.
+In this environment, available GitHub tooling is read-focused and does not expose a write operation to edit the project board directly.  
+Because of that, this file provides the closest supported setup: a complete board blueprint you can copy into the project named `dermoare`.
 
 ## Team members
 
@@ -12,7 +12,7 @@ Because of that, this file provides the closest supported setup: a complete boar
 - marcos — Data Engineer
 - ana — Power BI Analyst
 
-## Suggested classic project workflow columns
+## Suggested project workflow columns
 
 1. Todo
 2. In Progress
@@ -69,9 +69,9 @@ Because of that, this file provides the closest supported setup: a complete boar
   Priority: **LOW** · Assignee: **marcos** (Data Engineer)  
   Initialize folders for pipelines, models and documentation.
 
-## Optional metadata mapping inside classic projects
+## Optional metadata mapping inside project cards
 
-If you want to preserve metadata visually in classic cards:
+If you want to preserve metadata visually in cards:
 
 - Prefix titles with priority: `[HIGH]`, `[MEDIUM]`, `[LOW]`
 - Include assignee in card note body: `Assignee: @name`

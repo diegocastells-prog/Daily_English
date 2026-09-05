@@ -1,7 +1,7 @@
 # Daily_English
 
-## Project dashboard seed: `dermocare`
+## Project dashboard seed: `dermoare`
 
-The requested GitHub Project (classic) dashboard seed data is documented in:
+The requested GitHub Project dashboard seed data is documented in:
 
-- `docs/dermocare-classic-project.md`
+- `docs/dermoare-classic-project.md`
