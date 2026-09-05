@@ -1,0 +1,86 @@
+[
+  {
+    "title": "Define project KPIs",
+    "description": "PM and analysts define KPIs for sales, inventory and margin.",
+    "assignee": "laura",
+    "priority": "HIGH",
+    "status": "Todo"
+  },
+  {
+    "title": "Request access to POS API",
+    "description": "Data Engineer requests credentials and tests connectivity.",
+    "assignee": "diego",
+    "priority": "HIGH",
+    "status": "Todo"
+  },
+  {
+    "title": "Document data sources",
+    "description": "List POS, ERP and inventory systems with fields and update frequency.",
+    "assignee": "marcos",
+    "priority": "MEDIUM",
+    "status": "Todo"
+  },
+  {
+    "title": "Build ingestion pipeline for daily sales",
+    "description": "Create ingestion pipeline from POS API with retries and logging.",
+    "assignee": "marcos",
+    "priority": "HIGH",
+    "status": "In Progress"
+  },
+  {
+    "title": "Clean and transform inventory data",
+    "description": "Standardize product IDs, remove nulls and unify stock tables.",
+    "assignee": "diego",
+    "priority": "MEDIUM",
+    "status": "In Progress"
+  },
+  {
+    "title": "Create Power BI semantic model",
+    "description": "Build model with fact_sales, dim_product and dim_store.",
+    "assignee": "laura",
+    "priority": "HIGH",
+    "status": "In Progress"
+  },
+  {
+    "title": "Draft dashboard layout",
+    "description": "Create initial layout for sales and inventory dashboard.",
+    "assignee": "ana",
+    "priority": "MEDIUM",
+    "status": "In Progress"
+  },
+  {
+    "title": "Validate DAX measures",
+    "description": "Check Sales, Margin, Out-of-Stock and Returns measures.",
+    "assignee": "ana",
+    "priority": "HIGH",
+    "status": "Review"
+  },
+  {
+    "title": "Review pipeline performance",
+    "description": "Test ingestion pipeline duration and resource usage.",
+    "assignee": "marcos",
+    "priority": "MEDIUM",
+    "status": "Review"
+  },
+  {
+    "title": "Review dashboard layout with PM",
+    "description": "PM validates structure, navigation and visual hierarchy.",
+    "assignee": "ana",
+    "priority": "LOW",
+    "status": "Review"
+  },
+  {
+    "title": "Project kickoff meeting",
+    "description": "PM and team align scope, roles and timelines.",
+    "assignee": "diego",
+    "priority": "LOW",
+    "status": "Done"
+  },
+  {
+    "title": "Create repository structure",
+    "description": "Initialize folders for pipelines, models and documentation.",
+    "assignee": "marcos",
+    "priority": "LOW",
+    "status": "Done"
+  }
+]

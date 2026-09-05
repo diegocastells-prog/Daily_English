@@ -1,0 +1,143 @@
+[
+  {
+    "id": "aurora-retail",
+    "name": "Aurora Retail Group",
+    "industry": "Retail & Commerce",
+    "description": "Sales, inventory and margin analytics delivery.",
+    "color": "#b15b24",
+    "tasks": [
+      {"title":"Define project KPIs","description":"PM and analysts define KPIs for sales, inventory and margin.","assignee":"laura","priority":"HIGH","status":"Todo"},
+      {"title":"Request access to POS API","description":"Data Engineer requests credentials and tests connectivity.","assignee":"diego","priority":"HIGH","status":"Todo"},
+      {"title":"Document data sources","description":"List POS, ERP and inventory systems with fields and update frequency.","assignee":"marcos","priority":"MEDIUM","status":"Todo"},
+      {"title":"Build ingestion pipeline for daily sales","description":"Create ingestion pipeline from POS API with retries and logging.","assignee":"marcos","priority":"HIGH","status":"In Progress"},
+      {"title":"Clean and transform inventory data","description":"Standardize product IDs, remove nulls and unify stock tables.","assignee":"diego","priority":"MEDIUM","status":"In Progress"},
+      {"title":"Create Power BI semantic model","description":"Build model with fact_sales, dim_product and dim_store.","assignee":"laura","priority":"HIGH","status":"In Progress"},
+      {"title":"Draft dashboard layout","description":"Create initial layout for sales and inventory dashboard.","assignee":"ana","priority":"MEDIUM","status":"In Progress"},
+      {"title":"Validate DAX measures","description":"Check Sales, Margin, Out-of-Stock and Returns measures.","assignee":"ana","priority":"HIGH","status":"Review"},
+      {"title":"Review pipeline performance","description":"Test ingestion pipeline duration and resource usage.","assignee":"marcos","priority":"MEDIUM","status":"Review"},
+      {"title":"Review dashboard layout with PM","description":"PM validates structure, navigation and visual hierarchy.","assignee":"ana","priority":"LOW","status":"Review"},
+      {"title":"Project kickoff meeting","description":"PM and team align scope, roles and timelines.","assignee":"diego","priority":"LOW","status":"Done"},
+      {"title":"Create repository structure","description":"Initialize folders for pipelines, models and documentation.","assignee":"marcos","priority":"LOW","status":"Done"}
+    ]
+  },
+  {
+    "id": "medicare-network",
+    "name": "MedicaCare Network",
+    "industry": "Healthcare",
+    "description": "Patient portal and digital scheduling implementation.",
+    "color": "#248a5b",
+    "tasks": [
+      {"title":"Confirm patient portal KPIs","description":"Agree activation, appointment and support KPIs with clinical operations.","assignee":"laura","priority":"HIGH","status":"Todo"},
+      {"title":"Request scheduling API access","description":"Obtain sandbox credentials and validate appointment endpoints.","assignee":"diego","priority":"HIGH","status":"Todo"},
+      {"title":"Document clinic workflows","description":"Map booking, cancellation and follow-up workflows by clinic.","assignee":"marcos","priority":"MEDIUM","status":"Todo"},
+      {"title":"Build appointment ingestion","description":"Load appointments and cancellations with audit logging.","assignee":"marcos","priority":"HIGH","status":"In Progress"},
+      {"title":"Normalize patient identifiers","description":"Standardize patient and clinic identifiers across source systems.","assignee":"diego","priority":"MEDIUM","status":"In Progress"},
+      {"title":"Create portal semantic model","description":"Model patients, clinics, appointments and portal activity.","assignee":"laura","priority":"HIGH","status":"In Progress"},
+      {"title":"Draft clinical dashboard","description":"Create a clear view for access, bookings and unresolved issues.","assignee":"ana","priority":"MEDIUM","status":"In Progress"},
+      {"title":"Validate appointment measures","description":"Check booking, cancellation, no-show and activation measures.","assignee":"ana","priority":"HIGH","status":"Review"},
+      {"title":"Review integration latency","description":"Test data freshness and alerting for delayed appointment feeds.","assignee":"marcos","priority":"MEDIUM","status":"Review"},
+      {"title":"Review dashboard with operations","description":"Clinical operations validates navigation and privacy-safe summaries.","assignee":"ana","priority":"LOW","status":"Review"},
+      {"title":"Approve project scope","description":"Client and delivery team align scope, roles and launch milestones.","assignee":"diego","priority":"LOW","status":"Done"},
+      {"title":"Create secure repository structure","description":"Initialize folders for pipelines, models, tests and documentation.","assignee":"marcos","priority":"LOW","status":"Done"}
+    ]
+  },
+  {
+    "id": "pulsepay",
+    "name": "PulsePay",
+    "industry": "Finance & Fintech",
+    "description": "Fraud detection and payment reliability program.",
+    "color": "#1769aa",
+    "tasks": [
+      {"title":"Define fraud monitoring KPIs","description":"Agree false positives, detection rate and investigation time targets.","assignee":"laura","priority":"HIGH","status":"Todo"},
+      {"title":"Request payment event access","description":"Obtain credentials and validate transaction event connectivity.","assignee":"diego","priority":"HIGH","status":"Todo"},
+      {"title":"Document risk data sources","description":"List payment, merchant and investigation sources with refresh rules.","assignee":"marcos","priority":"MEDIUM","status":"Todo"},
+      {"title":"Build transaction ingestion pipeline","description":"Ingest payment events with retries, masking and audit logs.","assignee":"marcos","priority":"HIGH","status":"In Progress"},
+      {"title":"Clean merchant risk data","description":"Normalize merchant IDs, categories and missing risk attributes.","assignee":"diego","priority":"MEDIUM","status":"In Progress"},
+      {"title":"Create fraud semantic model","description":"Build model with transactions, merchants, alerts and investigations.","assignee":"laura","priority":"HIGH","status":"In Progress"},
+      {"title":"Draft risk dashboard layout","description":"Create views for alerts, trends, investigations and payment health.","assignee":"ana","priority":"MEDIUM","status":"In Progress"},
+      {"title":"Validate fraud measures","description":"Check detection rate, false positives, exposure and recovery measures.","assignee":"ana","priority":"HIGH","status":"Review"},
+      {"title":"Review alert pipeline performance","description":"Test event duration, throughput and resource usage under peak load.","assignee":"marcos","priority":"MEDIUM","status":"Review"},
+      {"title":"Review risk dashboard with compliance","description":"Compliance validates structure, access rules and visual hierarchy.","assignee":"ana","priority":"LOW","status":"Review"},
+      {"title":"Risk program kickoff","description":"Client and delivery team align scope, controls and timelines.","assignee":"diego","priority":"LOW","status":"Done"},
+      {"title":"Create controlled repository structure","description":"Initialize folders for pipelines, models, controls and documentation.","assignee":"marcos","priority":"LOW","status":"Done"}
+    ]
+  },
+  {
+    "id": "swiftlogistics",
+    "name": "SwiftRoute Logistics",
+    "industry": "Logistics & Transport",
+    "description": "Route optimization, warehouse visibility and delivery performance.",
+    "color": "#7157a8",
+    "tasks": [
+      {"title":"Define delivery KPIs","description":"Agree on on-time delivery, failed attempt and cost-per-route measures.","assignee":"laura","priority":"HIGH","status":"Todo"},
+      {"title":"Connect warehouse scan feed","description":"Request credentials and test inbound and outbound scan events.","assignee":"diego","priority":"HIGH","status":"Todo"},
+      {"title":"Map depot master data","description":"Document depots, routes, vehicles and carrier relationships.","assignee":"marcos","priority":"MEDIUM","status":"In Progress"},
+      {"title":"Review route dashboard","description":"Operations validates exception views and daily delivery summaries.","assignee":"ana","priority":"MEDIUM","status":"Review"}
+    ]
+  },
+  {
+    "id": "solaris-energy",
+    "name": "Solaris Energy",
+    "industry": "Energy & Utilities",
+    "description": "Energy production monitoring and asset maintenance delivery.",
+    "color": "#c47d16",
+    "tasks": [
+      {"title":"Define production KPIs","description":"Align generation, availability and curtailment measures with operations.","assignee":"laura","priority":"HIGH","status":"Todo"},
+      {"title":"Request meter data access","description":"Validate secure access to plant meters and interval readings.","assignee":"diego","priority":"HIGH","status":"Todo"},
+      {"title":"Build asset ingestion pipeline","description":"Load generation and maintenance data with quality checks.","assignee":"marcos","priority":"HIGH","status":"In Progress"},
+      {"title":"Validate outage measures","description":"Engineering reviews outage duration, availability and maintenance calculations.","assignee":"ana","priority":"MEDIUM","status":"Review"}
+    ]
+  },
+  {
+    "id": "connecta-telecom",
+    "name": "Connecta Telecom",
+    "industry": "Telecommunications",
+    "description": "Network quality, customer experience and service operations.",
+    "color": "#1769aa",
+    "tasks": [
+      {"title":"Define network quality KPIs","description":"Agree latency, availability, dropped-call and complaint measures.","assignee":"laura","priority":"HIGH","status":"Todo"},
+      {"title":"Request network events access","description":"Obtain credentials and validate network event stream connectivity.","assignee":"diego","priority":"HIGH","status":"Todo"},
+      {"title":"Standardize cell identifiers","description":"Unify region, tower and cell identifiers across operational systems.","assignee":"marcos","priority":"MEDIUM","status":"In Progress"},
+      {"title":"Review service dashboard","description":"Customer operations validates outage and service-quality navigation.","assignee":"ana","priority":"LOW","status":"Done"}
+    ]
+  },
+  {
+    "id": "northstar-media",
+    "name": "Northstar Media",
+    "industry": "Media & Entertainment",
+    "description": "Audience analytics, content performance and subscription growth.",
+    "color": "#8b4f9f",
+    "tasks": [
+      {"title":"Define audience KPIs","description":"Align reach, engagement, retention and subscription measures.","assignee":"laura","priority":"HIGH","status":"Todo"},
+      {"title":"Connect streaming events","description":"Test access to playback, search and subscription event data.","assignee":"diego","priority":"HIGH","status":"Todo"},
+      {"title":"Create content semantic model","description":"Model shows, episodes, audiences, platforms and subscription events.","assignee":"marcos","priority":"HIGH","status":"In Progress"},
+      {"title":"Review editorial dashboard","description":"Editorial team validates content performance views and drill-throughs.","assignee":"ana","priority":"MEDIUM","status":"Review"}
+    ]
+  },
+  {
+    "id": "buildwise",
+    "name": "BuildWise Construction",
+    "industry": "Construction & Real Estate",
+    "description": "Project costs, site progress and subcontractor performance.",
+    "color": "#b15b24",
+    "tasks": [
+      {"title":"Define project controls KPIs","description":"Agree cost variance, schedule variance and safety measures.","assignee":"laura","priority":"HIGH","status":"Todo"},
+      {"title":"Request site system access","description":"Validate access to project, procurement and timesheet systems.","assignee":"diego","priority":"HIGH","status":"Todo"},
+      {"title":"Map subcontractor data","description":"Document contractors, packages, milestones and payment status.","assignee":"marcos","priority":"MEDIUM","status":"In Progress"},
+      {"title":"Review project controls dashboard","description":"Project managers validate cost and schedule exception views.","assignee":"ana","priority":"MEDIUM","status":"Review"}
+    ]
+  },
+  {
+    "id": "civic-services",
+    "name": "Civic Services Authority",
+    "industry": "Public Sector",
+    "description": "Citizen services, case management and operational transparency.",
+    "color": "#248a5b",
+    "tasks": [
+      {"title":"Define citizen service KPIs","description":"Agree resolution time, backlog, satisfaction and accessibility measures.","assignee":"laura","priority":"HIGH","status":"Todo"},
+      {"title":"Request case management access","description":"Obtain approved access and validate privacy controls.","assignee":"diego","priority":"HIGH","status":"Todo"},
+      {"title":"Clean service request data","description":"Standardize categories, channels, regions and case statuses.","assignee":"marcos","priority":"MEDIUM","status":"In Progress"},
+      {"title":"Review transparency dashboard","description":"Service owners validate public-safe summaries and navigation.","assignee":"ana","priority":"LOW","status":"Done"}
+    ]
+  }
+]
